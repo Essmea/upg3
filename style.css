@@ -1,0 +1,35 @@
+* {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;  
+}
+
+title {
+    display: none;
+}
+.container{
+    display: flex;
+    flex-direction: row;  
+}
+
+.first {
+height: 100px;
+width: 100px;
+object-fit: cover;
+margin-right: 8px;
+border-radius: 4px;
+}
+
+.second {
+    height:200px;
+    width: 200px;
+    object-fit: cover;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+.first:hover, .second:hover {
+    box-shadow: rgb(190, 99, 114) 0 0 5px;
+
+}
